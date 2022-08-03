@@ -4,6 +4,11 @@
 
   (paper "USLetter")
 
+  (title_block
+    (title "Flight Recorder Mk1")
+    (rev "2")
+  )
+
   (lib_symbols
     (symbol "8 MHz crystal:830010043" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "XTAL" (id 0) (at 5.08 4.445 0)
@@ -3509,9 +3514,6 @@
     )
     (path "/7d689d50-5218-4efc-a2cd-6bddeb283815"
       (reference "#PWR0121") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/05ad3611-bc85-4d66-85e8-c067f8cfca78/50ab12ea-f9dd-4fb6-bfa6-9de4f2f08388"
-      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
     )
     (path "/05ad3611-bc85-4d66-85e8-c067f8cfca78/b83d40be-f6a9-41a0-b4b1-8341ddbca8b8"
       (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
